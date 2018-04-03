@@ -99,5 +99,11 @@ def remove_codepoints_from_ttc(ttc_name):
             os.remove(f)
 
 
+remove_codepoints_from_ttc('NotoSansCJK-Thin.ttc')
+remove_codepoints_from_ttc('NotoSansCJK-Light.ttc')
 remove_codepoints_from_ttc('NotoSansCJK-Regular.ttc')
+remove_codepoints_from_ttc('NotoSansCJK-Medium.ttc')
+remove_codepoints_from_ttc('NotoSansCJK-Bold.ttc')
+remove_codepoints_from_ttc('NotoSansCJK-Black.ttc')
 remove_codepoints_from_ttc('NotoSerifCJK-Regular.ttc')
+remove_codepoints_from_ttc('NotoSerifCJK-Bold.ttc')
